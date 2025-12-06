@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="UTF-8" />
+<title>Carlo V</title>
+<style>
+body {
+font-family: Arial, sans-serif;
+margin: 0;
+padding: 0;
+display: flex;
+flex-direction: column;
+align-items: center;
+text-align: center;
+}
+.header {
+display: flex;
+align-items: center;
+gap: 20px;
+margin-top: 30px;
+}
+.header img {
+width: auto;
+height: 200px;
+object-fit: cover;
+border: 3px solid black;
+border-radius: 12px;
+}
+h1 { margin: 0; font-size: 36px; }
+.container {
+display: flex;
+justify-content: center;
+gap: 60px;
+margin-top: 40px;
+}
+.card {
+width: 220px;
+height: 300px;
+border: 3px solid black;
+border-radius: 20px;
+position: relative;
+overflow: hidden;
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+.card-title { margin-top: 20px; font-size: 22px; font-weight: bold; }
+.card-content {
+position: absolute;
+bottom: -100%;
+left: 0;
+width: 100%;
+height: 75%;
+background: white;
+border-top: 3px solid black;
+border-radius: 0 0 20px 20px;
+padding: 18px;
+transition: bottom 0.4s ease;
+text-align: left;
+font-size: 14px;
+box-sizing: border-box;
+}
+.card:hover .card-content { bottom: 0; }
+</style>
+</head>
+<body>
+<div class="header">
+<img src="img/carloV.jpg" alt="Carlo V">
+<h1>CARLO V</h1>
+</div>
+
+
+<div class="container">
+<div class="card">
+<div class="card-title">RUOLO</div>
+<div class="card-content">
+<p>Carlo V fu imperatore del Sacro Romano Impero durante la Riforma protestante. Tentò di mantenere l'unità religiosa dell'Europa e difendere il cattolicesimo contro la diffusione del luteranesimo.</p>
+</div>
+</div>
+
+
+<div class="card">
+<div class="card-title">RIFORMA</div>
+<div class="card-content">
+<p>Si oppose alle idee di Lutero, convocò la Dieta di Worms e dichiarò l'eresia del luteranesimo. Tuttavia non riuscì a fermarne la diffusione, anche a causa dei principi tedeschi che lo appoggiarono.</p>
+</div>
+</div>
+
+
+<div class="card">
+<div class="card-title">CONTRORIFORMA</div>
+<div class="card-content">
+<p>Il suo regno preparò il terreno alla Controriforma: promosse il Concilio di Trento, che ridefinì la dottrina cattolica e rispose alla Riforma protestante.</p>
+</div>
+</div>
+</div>
+</body>
+</html>
