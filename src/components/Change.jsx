@@ -6,8 +6,8 @@ export default function Change({ before, after }) {
     return (
         <>
             <div className="mt-10 flex justify-between p-10">
-                <Link to={`${before}`}><div className="bg-gray-500 hover:bg-gray-700 h-30 w-70 flex items-center justify-center rounded-full"><p className="text-3xl">torna indietro</p></div></Link>
-                <Link to={`${after}`}><div className="bg-gray-500 hover:bg-gray-700 h-30 w-70 flex items-center justify-center rounded-full"><p className="text-3xl">vai avanti</p></div></Link>
+                <Link to={`${before}`}><div className="h-30 w-70 flex items-center justify-center rounded-full"><p className="text-3xl font-titles text-amber-900">Torna indietro</p></div></Link>
+                <Link to={`${after}`}><div className="h-30 w-70 flex items-center justify-center rounded-full"><p className="text-3xl font-titles text-amber-900">Vai avanti</p></div></Link>
             </div>
         </>
     )

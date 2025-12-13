@@ -8,6 +8,10 @@ import Credits from './components/Credits.jsx';
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Quintessential&display=swap" rel="stylesheet" />
+
     <Router>
       <Routes>
         <Route path="/" element={<App />} />
