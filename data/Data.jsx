@@ -1,7 +1,7 @@
 import MapRiforma from '../src/components/maps/MapRiforma.jsx'
 import GeoMapRiforma from '../src/components/geoMaps/GeoMapRiforma.jsx'
 
-
+<div></div>
 const Data = {
   riforma: {
     title: "riforma",
@@ -62,5 +62,6 @@ const Data = {
     }
   }
 };
+
 
 export default Data;

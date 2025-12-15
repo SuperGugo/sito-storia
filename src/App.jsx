@@ -5,7 +5,8 @@ export default function App() {
 
   return (
     <div className='grid grid-cols-3'>
-      <Navbar title="Sito Storia 4Cin"/>
+      <Navbar title="Sito Storia" img="logo.jpg" /> 
+        <section id="Argomenti" className='col-span-3'></section>
         <Card img="/martin.jpg" title="Riforma e controriforma" link="riforma" />
         <Card />
         <Card />
@@ -13,6 +14,7 @@ export default function App() {
         <Card />
         <Card />
         <Card />
+       
     </div>
     
   )

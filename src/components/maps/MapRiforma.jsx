@@ -6,7 +6,7 @@ export default function MapRiforma() {
     }
     return (
         <>
-            <div className="flex justify-center items-center bg-red-400 rounded-3xl m-5 h-150">
+            <div className="flex justify-center items-center  bg-[#efe4c8] border-4 border-[#3b2f1e4d] rounded-3xl m-5 h-150">
 
                 <svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
                     <g>

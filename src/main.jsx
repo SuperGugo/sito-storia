@@ -11,6 +11,8 @@ createRoot(document.getElementById('root')).render(
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Quintessential&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;600&family=Playfair+Display:wght@500;700&display=swap" rel="stylesheet"></link>
+
 
     <Router>
       <Routes>
