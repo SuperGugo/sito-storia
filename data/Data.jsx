@@ -4,7 +4,7 @@ import GeoMapRiforma from '../src/components/geoMaps/GeoMapRiforma.jsx'
 <div></div>
 const Data = {
   riforma: {
-    title: "riforma",
+    title: "Riforma",
 
     map: <MapRiforma />,
 
