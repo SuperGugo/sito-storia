@@ -1,1 +1,0 @@
-qui metteremo il percorso delle immagini da poi trasferire su Data.jsx
