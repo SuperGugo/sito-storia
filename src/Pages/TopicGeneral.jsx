@@ -7,10 +7,24 @@ export default function TopicGeneral({ info }) {
     const { argoment } = useParams();
     return (
         <>
-            
             {info.general.geoMap}
-            <p className='justify-center text-5xl '><ReactMarkdown>{`${info.general.factTitle}`}</ReactMarkdown></p>
-            <p className='flex justify-center text-2xl m-10'><ReactMarkdown>{`${info.general.factDescription}`}</ReactMarkdown></p>
+            
+            <div className="bg-[#efe4c8] border-4 border-[#3b2f1e4d] rounded-3xl m-5">
+                <div className='w-4/5 mx-auto my-12'>
+                <div className='w-full text-center justify-center text-5xl font-bold mb-8 font-titles'>{`Approfondimento: ${info.general.factTitle}`}</div>
+                {
+                    info.general.facts.map((fact, index) => {
+                        return ( 
+                        <>
+                            <div className='block justify-center text-center text-4xl font-bold mb-5 font-navTitle'>{`${fact.title}`}</div>
+                            <div className='blockflex justify-center text-2xl mb-8 font-content indent-8'><ReactMarkdown>{`${fact.description}`}</ReactMarkdown></div>
+                        </>
+                        );
+                    })
+                }
+            </div>
+            </div>
+            
             <Sources info= {info} whatSource={"sourcesGeneral"}/>
             <Change before={`/${argoment}/personaggi`} after={`/`} />
         </>

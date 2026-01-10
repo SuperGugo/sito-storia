@@ -19,7 +19,7 @@ export default function TopicPages() {
 
     return (
         <>
-            <Navbar title={info.title} />
+            <Navbar title={info.title + " - " + part} />
             {content}
         </>
     )

@@ -27,36 +27,34 @@ const Data = {
 
     general: {
       geoMap: <GeoMapRiforma />,
+      factTitle: "La caccia alle streghe",
       facts: [
-        {
-          title: "**CACCIA ALLE STREGHE**",
-          description: " " 
-        },
-        {
-          title: "**Introduzione**",
-          description: " La caccia alle streghe fù un fenomeno sociale che si diffuse molto in italia tra il 1560 e il 1660. \n Era una vera e propria ricerca e condanna di donne, che essendo considerate moralmente più deboli dell’uomo,venivano spesso collegate al diavolo. \nQuesta caccia venne sostenuta principalmente dal Tribunale dell’Inquisizione, un tribunale cattolico sotto laguida della Chiesa, che si occupava della ricerca e della condanna di tutte le persone considerate eretiche dalla Chiesa. \n Tuttavia, le streghe esistevano già da diversi decenni, ma il Tribunale dell’Inquisizione si interessò solo quando venne equiparata la magia all’eresia, rendendo a tutti gli effetti le streghe eretiche. \n Il 5 dicembre 1484 Innocenzo VIII promulga una bolla, Summis desiderantes: al suo interno si dichiara l’obbligo di inquisire, torturare e uccidere le streghe in tutta Europa, e più in particolare in Germania. \n Dopo la nascita della Riforma di Martin Lutero, la Chiesa spostò il suo interesse principalmente sul contrastare i Luterani, perdendo interesse nella persecuzione delle streghe. \n Tra il 1590 e 1640 però, la caccia alle streghe riprese e in pochi anni raggiunse il suo culmine maggiore.sComplessivamente, in circa tre secoli sono state emanate tra le 40mila e le 60mila condanne, la metà delle qualissono state effettuate in Germania."
-        },
-        {
-          title: "**Cause delle persecuzioni**",
-          description: "La persecuzione delle “streghe” non ha una sola causa: si trattò di un intreccio di fattori culturali,sreligiosi, sociali e giuridici. \n Le cause principali furono: \n diffusione di manuali di demonologia e giurisprudenza, che fornirono una dottrina pratica su come identificare,sinterrogare e condannare i “colpevoli” alla popolazione. Questi testi contribuirono enormemente alla diffusionesdella caccia alle streghe, soprattutto tra la gente comune. \n sConflitti religiosi (Riforma/Controriforma) e guerre (es. la Guerra dei Trent’Anni), che aumentaronosl’insicurezza e il desiderio di “ripulire” la comunità nella popolazione. \n Problemi economici, carestie e povertà diffusa crearono stress agrari: raccolti mancati e malattie venivanosfacilmente attribuiti a malefici. (Queste spiegazioni sono ricorrenti nelle testimonianze processualisdell’epoca). \n Lo svolgimento dei processi dell’epoca, il quale favorì l’escalation e le “catene” di accuse, grazie a torturesdurissime e ripetute anche contro persone innocenti, che si piegavano al volere del torturatore. "
-        },
-        {
-          title: "**Come funzionava un processo**",
-          description: "Lo svolgimento di un processo per una persona accusata di stregoneria variava da caso a caso: nella maggiorsparte dei casi l’accusa nasceva dalla comunità; in territori grandi invece venivano promosse inchieste su largasscala.\n La maggior parte delle vittime venivano accusate di accuse di patto col diavolo, sabba o malefici;squestesprove erano spesso frutto di sogni, bugie o confessioni imposte. Le prove quindi non erano quasi mai oggettive,smentre il processo risultava quasi sempre valido, e quindi confermava la pena capitale."
-        },
-        {
-          title: "**Differenze tra le nazioni **",
-          description: " Non tutte le aree d’Europa videro la stessa violenza. Zone del Sacro Romano Impero (soprattutto Germaniasmeridionale) furono teatro delle persecuzioni più massicce; la Spagna e il Portogallo, pur avendosl’Inquisizione, condussero meno esecuzioni per stregoneria sistematiche perché l’Inquisizione spessosprivilegiava la lotta all’eresia documentabile rispetto alle accuse di stregoneria; in Inghilterra e Scozia lesdinamiche erano diverse, con figure come i trovatori di streghe in Inghilterra e processi intensi in Scozia."
-        },
-        {
-          title: "**I “grandi” casi europei**",
-          description: "Trier (1581–1593)\n Un’ondata lunga e sanguinosa nel principato-arcivescovile di Trier (Germania): centinaia di esecuzioni colpironosla cittadina; il fenomeno è noto per l’ampio territorio in cui vennero eseguite le esecuzioni e per gli arrestisdi persone di varie classi sociali.\n Würzburg (1625–1631) e Bamberg (1626–1631) \n Tra i più massicci processi di massa del Seicento, condotti nei principati-vescovili tedeschi durante la Guerrasdei Trent’Anni: centinaia di esecuzioni in ciascuna area e arresti su larga scala, comprese famiglie intere;sepisodi come panico sociale, pressioni politiche e pratiche giudiziarie portarono a tragedie nella zona disqueste 2 città, vicino alla attuale Norimberga."
-        },
-        {
-          title: "** L’Italia: caratteristiche e casi notevoli **",
-          description: "L’Italia ebbe anche lei delle persecuzioni ma in modi diversi rispetto al resto d’europa: molte inquisizionislocali (spesso sotto il controllo dei vescovi e dei papa) regolavano i casi. Talvolta l’Inquisizione romanastendeva a limitare le esecuzioni per stregoneria rispetto ai tribunali civili locali (ma ci furono eccezioni escasi drammatici).sDue casi/argomenti italiani tra i più importanti:\n Val Camonica (inizio XVI secolo) \n Due ondate di processi in Val Camonica (Lombardia) nel 1505–1510 e nel 1518–1521 rappresentano tra gli esempi piùsconosciuti di persecuzione in Italia: numerose imputazioni di riti pagani e patti col diavolo, condanne edsesecuzioni. \n I benandanti del Friuli \n Non un “processo di massa” ma un caso esemplare per capire la complessità culturale italiana: nei secolisXVI–XVII gruppi di contadini friulani (i “benandanti”) raccontavano di battaglie notturne spirituali persproteggere i raccolti; l’Inquisizione in base a questo li accusò di stregoneria."
-        },
-      ]
+  {
+    "title": "Introduzione",
+    "description": "La caccia alle streghe fu un fenomeno sociale che si diffuse molto in **Italia** tra il *1560* e il *1660*.  \nEra una vera e propria ricerca e condanna di donne che, essendo considerate moralmente più deboli dell’uomo, venivano spesso collegate al **diavolo**.  \nQuesta caccia venne sostenuta principalmente dal **Tribunale dell’Inquisizione**, un tribunale cattolico sotto la guida della Chiesa, che si occupava della ricerca e della condanna di tutte le persone considerate *eretiche* dalla Chiesa.  \nTuttavia, le streghe esistevano già da diversi decenni, ma il Tribunale dell’Inquisizione si interessò al fenomeno solo quando la **magia venne equiparata all’eresia**, rendendo a tutti gli effetti le streghe eretiche.  \nIl *5 dicembre 1484* **Innocenzo VIII** promulgò una bolla, *Summis desiderantes*: al suo interno si dichiarava l’obbligo di inquisire, torturare e uccidere le streghe in tutta Europa, in particolare in **Germania**.  \nDopo la nascita della **Riforma di Martin Lutero**, la Chiesa spostò il proprio interesse principalmente sul contrasto ai *luterani*, perdendo gradualmente interesse nella persecuzione delle streghe.  \nTra il *1590* e il *1640*, però, la caccia alle streghe riprese e in pochi anni raggiunse il suo culmine. Complessivamente, in circa tre secoli, furono emanate tra le *40.000* e le *60.000* condanne, circa la metà delle quali avvennero in **Germania**."
+  },
+  {
+    "title": "Cause delle persecuzioni",
+    "description": "La persecuzione delle *“streghe”* non ebbe una sola causa: si trattò di un intreccio di fattori **culturali, religiosi, sociali e giuridici**.  \nLe cause principali furono:  \n La diffusione di **manuali di demonologia e giurisprudenza**, che fornivano una dottrina pratica su come identificare, interrogare e condannare i “colpevoli”. Questi testi contribuirono enormemente alla diffusione della caccia alle streghe, soprattutto tra la popolazione comune.  \n- I **conflitti religiosi** (Riforma e Controriforma) e le **guerre** (come la *Guerra dei Trent’Anni*), che aumentarono l’insicurezza e il desiderio di “ripulire” la comunità.  \n- I **problemi economici**, le carestie e la povertà diffusa, che crearono forti tensioni sociali: raccolti mancati e malattie venivano facilmente attribuiti a *malefici*. Queste spiegazioni ricorrono spesso nelle testimonianze processuali dell’epoca.  \n- Lo **svolgimento dei processi**, che favoriva l’escalation e le *catene di accuse* attraverso torture durissime, applicate anche a persone innocenti, costrette a confessare."
+  },
+  {
+    "title": "Come funzionava un processo",
+    "description": "Lo svolgimento di un processo per una persona accusata di stregoneria variava da caso a caso.  \nNella maggior parte dei casi l’accusa nasceva dalla **comunità locale**; nei territori più grandi, invece, venivano promosse **inchieste su larga scala**.  \nLa maggior parte delle vittime veniva accusata di *patto con il diavolo*, partecipazione ai *sabba* o di aver compiuto *malefici*.  \nLe prove erano spesso frutto di sogni, voci, menzogne o **confessioni estorte con la tortura**.  \nDi conseguenza, le prove non erano quasi mai oggettive, ma il processo risultava comunque valido e confermava quasi sempre la **pena capitale**."
+  },
+  {
+    "title": "Differenze tra le nazioni",
+    "description": "Non tutte le aree d’Europa conobbero la stessa intensità di violenza.  \nLe zone del **Sacro Romano Impero** (soprattutto la Germania meridionale) furono teatro delle persecuzioni più massicce.  \nLa **Spagna** e il **Portogallo**, pur avendo l’Inquisizione, condussero meno esecuzioni sistematiche per stregoneria, poiché l’Inquisizione privilegiava la lotta all’eresia documentabile rispetto alle accuse di stregoneria.  \nIn **Inghilterra** e **Scozia** le dinamiche furono diverse: in Inghilterra operarono figure come i *“cacciatori di streghe”*, mentre in Scozia si verificarono processi particolarmente intensi."
+  },
+  {
+    "title": "I “grandi” casi europei",
+    "description": "- **Trier (1581–1593)**  \nUn’ondata lunga e sanguinosa nel principato-arcivescovile di Trier (Germania): centinaia di esecuzioni colpirono la città. Il caso è noto per l’ampiezza del territorio coinvolto e per l’arresto di persone appartenenti a diverse classi sociali.  \n - **Würzburg (1625–1631) e Bamberg (1626–1631)**  \nTra i più massicci processi di massa del Seicento, condotti nei principati vescovili tedeschi durante la *Guerra dei Trent’Anni*: centinaia di esecuzioni in ciascuna area e arresti su larga scala, comprese famiglie intere. Panico sociale, pressioni politiche e pratiche giudiziarie portarono a tragedie in queste due città, situate vicino all’attuale **Norimberga**."
+  },
+  {
+    "title": "L’Italia: caratteristiche e casi notevoli",
+    "description": "Anche l’**Italia** conobbe persecuzioni per stregoneria, ma con caratteristiche diverse rispetto al resto d’Europa.  \nMolte inquisizioni locali, spesso sotto il controllo di vescovi e del papa, regolavano i processi. Talvolta l’**Inquisizione romana** tendeva a limitare le esecuzioni per stregoneria rispetto ai tribunali civili locali, anche se non mancarono eccezioni e casi drammatici.  \nDue casi italiani particolarmente significativi:  \n - **Val Camonica (inizio XVI secolo)**  \nDue ondate di processi in Val Camonica (Lombardia) tra il *1505–1510* e il *1518–1521* rappresentano tra gli esempi più conosciuti di persecuzione in Italia: numerose imputazioni di riti pagani e patti con il diavolo portarono a condanne ed esecuzioni.  \n - **I benandanti del Friuli**  \nNon si trattò di un vero e proprio processo di massa, ma di un caso emblematico per comprendere la complessità culturale italiana: tra i secoli *XVI* e *XVII* gruppi di contadini friulani, chiamati *benandanti*, raccontavano di battaglie notturne spirituali per proteggere i raccolti; l’Inquisizione interpretò queste credenze come forme di **stregoneria**."
+  }
+]
+
 
     },
 

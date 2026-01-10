@@ -4,4 +4,9 @@
 @theme {
   --font-titles: "Quintessential", serif; 
   --font-navTitle: "Cormorant Garamond", serif;
+  --font-content: "Times New Roman", serif;
+}
+
+ul {
+  @apply list-disc pl-5 indent-0
 }
