@@ -5,9 +5,10 @@ import ReactMarkdown from 'react-markdown';
 
 export default function TopicMap({ info }) {
     const { argoment } = useParams();
+    const Mappa = info.map
     return (
         <>
-            <div>{info.map}</div>
+            <Mappa />
             <Sources info={ info } whatSource={"sourcesMap"} />
             <Change before={"/"} after={`/${argoment}/personaggi`} />
         </>

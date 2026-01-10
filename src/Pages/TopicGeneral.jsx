@@ -1,6 +1,7 @@
 import { useParams } from 'react-router-dom'
 import Change from '../components/Change.jsx';
 import Sources from '../components/Sources.jsx';
+import GeoMap from '../components/GeoMap.jsx';
 import ReactMarkdown from 'react-markdown';
 
 export default function TopicGeneral({ info }) {
@@ -8,7 +9,7 @@ export default function TopicGeneral({ info }) {
     return (
         <>
             <div className="bg-[#efe4c8] border-4 border-[#3b2f1e4d] rounded-3xl m-5 overflow-hidden">
-                {info.general.geoMap}
+                <GeoMap Geomap={info.general.geoMap} tooltips={info.general.tooltips} />
             </div>
             
             <div className="bg-[#efe4c8] border-4 border-[#3b2f1e4d] rounded-3xl m-5">

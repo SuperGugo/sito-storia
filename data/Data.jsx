@@ -6,7 +6,7 @@ const Data = {
   riforma: {
     title: "Riforma",
 
-    map: <MapRiforma />,
+    map: MapRiforma,
 
     characters: [{
       name: "Personaggio 1",
@@ -26,7 +26,8 @@ const Data = {
     ],
 
     general: {
-      geoMap: <GeoMapRiforma tooltips={{
+      geoMap: GeoMapRiforma,
+      tooltips: {
         "protestanti": "La Riforma Luterana, iniziata nel 1517 da Martin Lutero, portò alla nascita di numerose chiese protestanti in Europa. Alcuni paesi adottarono ufficialmente il protestantesimo, rompendo con la Chiesa cattolica e modificando radicalmente la vita religiosa e politica.  \n## Principali Paesi Protestanti  \n- **Germania (Stati tedeschi)** – Luogo d’origine della Riforma; molti principati tedeschi adottarono il luteranesimo.  \n- **Regno di Svezia** – Accettò il luteranesimo come religione di Stato nel 1527.  \n- **Danimarca-Norvegia** – Aderirono al luteranesimo nei primi decenni del XVI secolo.  \n- **Inghilterra** – Divenne protestante con la nascita della Chiesa anglicana nel 1534 sotto Enrico VIII.  \n- **Svizzera** – Centro importante della Riforma calvinista e zwingliana, soprattutto a Ginevra e Zurigo.  \n- **Paesi Bassi** – Molte province abbracciarono il calvinismo, in opposizione alla Spagna cattolica.  \n- **Scozia** – Divenne protestante sotto l’influenza di John Knox e la Chiesa presbiteriana.  \n## Conseguenze della Riforma  \nLa diffusione del protestantesimo portò a profondi cambiamenti religiosi, politici e culturali. In molti casi, la Riforma portò a guerre di religione, persecuzioni e alla nascita di nuove confessioni cristiane. I paesi protestanti misero al centro la lettura personale della Bibbia e riformarono il culto e l’organizzazione ecclesiastica. ",
 
         "ortodossi": "Durante la Riforma Luterana (XVI secolo), l'Europa orientale era in gran parte cristiana ortodossa. Questi paesi, non direttamente coinvolti nel conflitto tra cattolici e protestanti, mantennero la loro fede tradizionale, separata dalla Chiesa di Roma fin dallo Scisma d'Oriente del 1054.  \n## Principali Paesi Ortodossi  \n- **Impero Russo** – Il più grande stato ortodosso, con la Chiesa ortodossa russa fortemente radicata nella società e sostenuta dallo zar.  \n- **Impero Bizantino (già dissolto)** – Anche se caduto nel 1453, la sua eredità religiosa sopravvisse nei territori ortodossi.  \n- **Serbia** – Forte identità religiosa ortodossa, sotto dominazione ottomana ma con la Chiesa serba ancora attiva.  \n- **Grecia** – Anche se sotto controllo ottomano, la popolazione mantenne la fede ortodossa attraverso la Chiesa greca.  \n- **Bulgaria** – Stato con tradizione ortodossa, anch’esso soggetto all’Impero Ottomano, ma con forte identità religiosa.  \n- **Ungheria, Moldavia, Valacchia (Romania)** – Principati ortodossi con autonomia locale e fedeltà alla tradizione bizantina.  \n## Ruolo nella Riforma  \nI paesi ortodossi non presero parte attiva alla Riforma Protestante né alla Controriforma cattolica, ma osservarono con interesse gli sviluppi in Europa occidentale. La loro posizione autonoma permise alla tradizione ortodossa di continuare relativamente intatta, pur sotto pressioni esterne, come quella ottomana o quella cattolica in alcune aree di confine.",
@@ -34,7 +35,7 @@ const Data = {
         "cattolici": "Durante la Riforma Luterana, iniziata nel 1517 con le 95 tesi di Martin Lutero, l'Europa si divise tra paesi protestanti e paesi rimasti fedeli al cattolicesimo. I paesi cattolici furono spesso guidati da monarchie o poteri centrali che rifiutarono le nuove dottrine protestanti.  \n## Principali Paesi Cattolici  \n- **Spagna** – Stato fortemente cattolico, guidato dalla monarchia ispanica e sostenitore della Controriforma.  \n- **Italia** – Sede del Papato, centro del potere cattolico europeo, rimase totalmente fedele alla Chiesa di Roma.  \n- **Francia** – Nonostante la presenza di ugonotti (protestanti), la monarchia restò cattolica.  \n- **Portogallo** – Stato cattolico fedele, alleato spirituale della Spagna.  \n- **Polonia-Lituania** – Anche se con una certa tolleranza religiosa, la nobiltà e la monarchia erano cattoliche.  \n- **Irlanda** – Rimase cattolica, a differenza dell’Inghilterra che adottò l’anglicanesimo.  \n- **Austria (Impero Asburgico)** – Pilastro della Controriforma, sede dell’influenza cattolica nell’Europa centrale.  \nIn risposta alla Riforma Protestante, la Chiesa Cattolica avviò la **Controriforma**, culminata con il Concilio di Trento (1545–1563), per riformare la Chiesa internamente e riaffermare la dottrina cattolica nei paesi rimasti fedeli.",
 
         "musulmani": ""
-      }}/>,
+      },
       factTitle: "La caccia alle streghe",
       facts: [
         {
