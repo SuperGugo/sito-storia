@@ -38,7 +38,7 @@ const Data = {
       },
       {
         image: "immagine riformismo femminile",
-        link: ""
+        link: "http://www.storiadelmondo.com/4/fogliani.riformismo.pdf"
       }
       {
         image: "immagine La chiesa luterana",
@@ -50,8 +50,16 @@ const Data = {
         link: "https://youtu.be/Qm693G3A3MY?si=6iUi5spl49lvZPnz"
       },
       {
-        image: "immaginePersonaggio2",
-        link: ""
+        image: "immagine federico il saggio",
+        link: "https://it.wikipedia.org/wiki/Federico_il_Saggio#:~:text=Federico%20III%20di%20Sassonia%2C%20detto,di%20Alberto%20III%20di%20Baviera."
+      },
+      {
+        image: "immagine papa leone x",
+        link: "https://it.wikipedia.org/wiki/Papa_Leone_X"
+      },
+      {
+        image: "immagine clemente vii",
+        link: "https://it.wikipedia.org/wiki/Papa_Clemente_VII"
       }
       ],
       sourcesGeneral: [{
