@@ -11,17 +11,29 @@ const Data = {
     characters: [{
       name: "Personaggio 1",
       image: "/martin.jpg",
-      description: "*TESTO* TESTO TESTO TESTO TESTO TESTO TESTO TESTO TESTO TESTO TESTO TESTO TESTO TESTO TESTO TESTO TESTO TESTO TESTO TESTO TESTO TESTO TESTO TESTO TESTO TESTO TESTO TESTO TESTO TESTO TESTO TESTO TESTO TESTO TESTO TESTO TESTO TESTO TESTO TESTO TESTO TESTO TESTO TESTO TESTO TESTO TESTO TESTO TESTO TESTO TESTO TESTO TESTO TESTO TESTO TESTO TESTO TESTO TESTO TESTO TESTO TESTO TESTO TESTO TESTO TESTO TESTO TESTO TESTO TESTO TESTO TESTO TESTO TESTO TESTO TESTO TESTO TESTO TESTO TESTO TESTO ",
+      desc: [
+        {title: "Titolo", description: "Descrizione"},
+        {title: "Titolo2", description: "Descrizione2"},
+        {title: "Titolo3", description: "Descrizione3"},
+      ]
     },
     {
       name: "Personaggio 2",
       image: "/martin.jpg",
-      description: "TESTO TESTO TESTO TESTO TESTO TESTO TESTO TESTO TESTO TESTO TESTO TESTO TESTO TESTO TESTO TESTO TESTO TESTO TESTO TESTO TESTO TESTO TESTO TESTO TESTO TESTO TESTO TESTO TESTO TESTO TESTO TESTO TESTO TESTO TESTO TESTO TESTO TESTO TESTO TESTO TESTO TESTO TESTO TESTO TESTO TESTO TESTO TESTO TESTO TESTO TESTO TESTO TESTO TESTO TESTO TESTO TESTO TESTO TESTO TESTO TESTO TESTO TESTO TESTO TESTO TESTO TESTO TESTO TESTO TESTO TESTO TESTO TESTO TESTO TESTO TESTO TESTO TESTO TESTO TESTO TESTO ",
+      desc: [
+        {title: "Titolo", description: "Descrizione"},
+        {title: "Titolo2", description: "Descrizione2"},
+        {title: "Titolo2", description: "Descrizione2"},
+      ]
     },
     {
       name: "Personaggio 3",
       image: "/martin.jpg",
-      description: "***Lutero e' morto e noi lo abbiamo ucciso***",
+      desc: [
+        {title: "Titolo", description: "Descrizione"},
+        {title: "Titolo2", description: "Descrizione2"},
+        {title: "Titolo2", description: "Descrizione2"},
+      ]
     }
     ],
 
