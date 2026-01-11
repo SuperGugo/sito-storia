@@ -10,17 +10,17 @@ export default function TopicMap({ info }) {
     <>
       <div className="bg-[#efe4c8] border-4 border-[#3b2f1e4d] rounded-3xl m-5 py-12">
         {info.characters.map(info => (
-          <div className='flex flex-col items-center'>
-            <div className='text-4xl font-bold mb-8 font-titles'><ReactMarkdown>{`${info.name}`}</ReactMarkdown></div>
-            <div className='flex w-2/3 mb-2'>
-              {(i % 2 == 0) && <img src={`${info.image}`} width={200}></img>}
+          <div className='flex flex-col items-center mb-12'>
+            <div className='text-4xl font-bold mb-12 font-titles'><ReactMarkdown>{`${info.name}`}</ReactMarkdown></div>
+            <div className='flex w-3/4 '>
+              {(i % 2 == 0) && <img src={`${info.image}`} className='h-100'></img>}
               {info.desc.map((desc, index) => { return (
-                <div className='w-full'>
-                  <p className='ml-20 mr-20 mt-5 mb-5 text-3xl'><ReactMarkdown>{`${desc.title}`}</ReactMarkdown></p>
-                  <p className='ml-20 mr-20 mt-5 mb-5 text-xl'><ReactMarkdown>{`${desc.description}`}</ReactMarkdown></p>
+                <div className='w-full mt-2'>
+                  <p className='ml-20 mr-20 text-3xl font-navTitle font-bold'><ReactMarkdown>{`${desc.title}`}</ReactMarkdown></p>
+                  <p className='ml-20 mr-20 text-xl font-content'><ReactMarkdown>{`${desc.description}`}</ReactMarkdown></p>
                 </div>
                 )})}
-              {(i++ % 2 != 0) && <img src={`${info.image}`} width={200}></img>}
+              {(i++ % 2 != 0) && <img src={`${info.image}`} className='h-100' ></img>}
             </div>
           </div>
         ))}

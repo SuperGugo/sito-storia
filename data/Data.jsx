@@ -9,8 +9,8 @@ const Data = {
     map: MapRiforma,
 
     characters: [{
-      name: "MARTIN LUTERO",
-      image: "public/martin.jpg",
+      name: "Martin Lutero",
+      image: "/martin.jpg",
       desc: [
         {title: "VITA", description: "Martin Lutero (1483-1546) fu un monaco e teologo tedesco che avviò la Riforma protestante criticando la vendita delle indulgenze. Pubblicò le 95 tesi nel 1517, diffuse grazie alla stampa. Le sue idee misero in discussione il potere della Chiesa e da qui nacque il protestantesimo."},
         {title: "95 TESI", description: "Le 95 tesi criticavano la vendita delle indulgenze. Lutero sosteneva che la salvezza viene solo dalla fede, che il Papa non può vendere il perdono e che la Bibbia è la sola autorità per i cristiani. Le tesi divennero il punto di partenza della Riforma protestante."},
@@ -18,8 +18,8 @@ const Data = {
       ]
     },
     {
-      name: "LEONE X",
-      image: "public/leoneX.jpg",
+      name: "Leone X",
+      image: "/leoneX.jpg",
       desc: [
         {title: "PAPATO", description: "Leone X, papa dal 1513, governò durante la nascita della Riforma. Fu criticato per il lusso della corte papale e per la vendita delle indulgenze, che contribuì al malcontento religioso."},
         {title: "RIFORMA", description: "Condannò le 95 tesi di Lutero e nel 1521 lo scomunicò con la bolla Decet Romanum Pontificem. Tuttavia non comprese subito la portata del movimento riformatore."},
@@ -27,8 +27,8 @@ const Data = {
       ]
     },
     {
-      name: "FILIPPO II",
-      image: "public/filippo.jpg",
+      name: "Filippo II",
+      image: "/filippo.jpg",
       desc: [
         {title: "CONTRORIFORMA", description: "Re di Spagna profondamente cattolico, sostenne con forza la Controriforma e il Concilio di Trento, difendendo l'ortodossia religiosa."},
         {title: "POTERE", description: "Governò un vastissimo impero. Rafforzò l'Inquisizione e cercò di mantenere l'unità religiosa nei territori sotto il suo dominio."},
@@ -36,8 +36,8 @@ const Data = {
       ]
     },
     {
-      name: "GIOVANNI CALVINO",
-      image: "public/calvino.jpg",
+      name: "Giovanni Calvino",
+      image: "/calvino.jpg",
       desc: [
         {title: "VITA", description: "Giovanni Calvino (1509-1564) fu uno dei principali riformatori. Stabilitosi a Ginevra, organizzò una comunità cristiana basata su rigore morale, studio della Bibbia e disciplina ecclesiastica."},
         {title: "DOTTRINA", description: "Calvino sviluppò il calvinismo: predestinazione, centralità assoluta della Scrittura, vita morale severa e organizzazione della Chiesa con anziani e pastori. Diffuse la Riforma in Francia, Paesi Bassi e Scozia."},
@@ -45,8 +45,8 @@ const Data = {
       ]
     },
     {
-      name: "ENRICO VIII",
-      image: "public/enrico.jpg",
+      name: "Enrico VIII",
+      image: "/enrico.jpg",
       desc: [
         {title: "CONTESTO", description: "Re d'Inghilterra dal 1509, governò durante la Riforma protestante europea. Inizialmente cattolico, fu proclamato \"Difensore della fede\" per aver criticato Lutero."},
         {title: "SCISMA", description: "Il rifiuto del Papa di annullare il matrimonio con Caterina d'Aragona lo spinse a rompere con Roma. Con l'Atto di Supremazia (1534) divenne capo della Chiesa anglicana."},
@@ -54,8 +54,8 @@ const Data = {
       ]
     },
     {
-      name: "CATERINA D'ARAGONA",
-      image: "public/caterina.jpg",
+      name: "Caterina d'Aragona",
+      image: "/caterina.jpg",
       desc: [
         {title: "MATRIMONIO", description: "Sposò Enrico VIII nel 1509. Il loro matrimonio fu considerato stabile e legittimo fino alla crisi dinastica legata alla mancanza di un erede maschio."},
         {title: "CRISI", description: "Il rifiuto del Papa di annullare il matrimonio scatenò lo scisma inglese. Caterina difese la propria posizione fino alla fine."},
@@ -63,8 +63,8 @@ const Data = {
       ]
     },
    {
-      name: "CARLO V",
-      image: "public/carloV.jpg",
+      name: "Carlo V",
+      image: "/carloV.jpg",
       desc: [
         {title: "RUOLO", description: "Carlo V fu imperatore del Sacro Romano Impero durante la Riforma protestante. Tentò di mantenere l'unità religiosa dell'Europa e difendere il cattolicesimo contro la diffusione del luteranesimo."},
         {title: "RIFORMA", description: "Si oppose alle idee di Lutero, convocò la Dieta di Worms e dichiarò l'eresia del luteranesimo. Tuttavia non riuscì a fermarne la diffusione, anche a causa dei principi tedeschi che lo appoggiarono."},
@@ -72,8 +72,8 @@ const Data = {
       ]
     },
     {
-      name: "ANNA BOLENA",
-      image: "public/bolena.jpg",
+      name: "Anna Bolena",
+      image: "/bolena.jpg",
       desc: [
         {title: "ASCESA", description: "Dama di corte e figura affascinante, conquistò Enrico VIII. La sua influenza fu decisiva nel distacco dalla Chiesa di Roma."},
         {title: "RUOLO NELLA RIFORMA", description: "Favorì idee riformiste: promosse la lettura della Bibbia in inglese e la diffusione di testi protestanti."},
