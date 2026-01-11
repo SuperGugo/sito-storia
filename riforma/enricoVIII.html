@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="UTF-8">
+<title>Enrico VIII</title>
+<style>
+body{font-family:Arial;margin:0;padding:0;display:flex;flex-direction:column;align-items:center;text-align:center;}
+.header{display:flex;align-items:center;gap:20px;margin-top:30px;}
+.header img{width:auto;height:200px;object-fit:cover;border:3px solid black;border-radius:12px;}
+h1{margin:0;font-size:36px;}
+.container{display:flex;justify-content:center;gap:60px;margin-top:40px;}
+.card{width:220px;height:300px;border:3px solid black;border-radius:20px;position:relative;overflow:hidden;display:flex;flex-direction:column;align-items:center;}
+.card-title{margin-top:20px;font-size:22px;font-weight:bold;}
+.card-content{position:absolute;bottom:-100%;left:0;width:100%;height:75%;background:white;border-top:3px solid black;border-radius:0 0 20px 20px;padding:18px;transition:bottom .4s ease;text-align:left;font-size:14px;box-sizing:border-box;}
+.card:hover .card-content{bottom:0;}
+</style>
+</head>
+<body>
+<div class="header">
+<img src="img/enrico.jpg" alt="Enrico VIII"><h1>ENRICO VIII</h1>
+</div>
+<div class="container">
+<div class="card"><div class="card-title">CONTESTO</div><div class="card-content"><p>Re d'Inghilterra dal 1509, governò durante la Riforma protestante europea. Inizialmente cattolico, fu proclamato "Difensore della fede" per aver criticato Lutero.</p></div></div>
+<div class="card"><div class="card-title">SCISMA</div><div class="card-content"><p>Il rifiuto del Papa di annullare il matrimonio con Caterina d'Aragona lo spinse a rompere con Roma. Con l'Atto di Supremazia (1534) divenne capo della Chiesa anglicana.</p></div></div>
+<div class="card"><div class="card-title">CONSEGUENZE</div><div class="card-content"><p>La sua scelta aprì la strada alla Riforma inglese, generando tensioni religiose e politiche che durarono per secoli e cambiando per sempre l'identità spirituale dell'Inghilterra.</p></div></div>
+</div>
+</body>
+</html>
