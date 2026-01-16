@@ -131,6 +131,10 @@ const Data = {
       {
         image: "https://www.evangelici.info/sites/default/files/immagini/donne_riforma_protestante.jpg",
         link: "http://www.storiadelmondo.com/4/fogliani.riformismo.pdf"
+      },
+      {
+        image: "https://www.libraccio.it/images/9788808830609_0_350_0_75.jpg",
+        link: "https://www.libraccio.it/libro/9788808830609/alessandro-barbero-chiara-frugoni-carla-sclarandis/noi-di-ieri,-noi-di-domani.-per-le-scuole-superiori.-con-e_book..-vol.-2..-il-settecento-e-l'ottocento.html"
       }
       ],
       sourcesCharacters: [{
@@ -168,10 +172,6 @@ const Data = {
       {
         image: "https://upload.wikimedia.org/wikipedia/commons/f/f0/Wikipedia-logo-de.png",
         link: "https://www.wikipedia.org/"
-      },
-      {
-        image: "https://www.libraccio.it/images/9788808830609_0_350_0_75.jpg",
-        link: "https://www.libraccio.it/libro/9788808830609/alessandro-barbero-chiara-frugoni-carla-sclarandis/noi-di-ieri,-noi-di-domani.-per-le-scuole-superiori.-con-e_book..-vol.-2..-il-settecento-e-l'ottocento.html"
       }
       ],
       sourcesGeneral: [{
